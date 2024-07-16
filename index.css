@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("CursedTimerUlil-Aznm.ttf");
+  }
+
+body {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 320px;
+    text-align: center;
+}
+
+h2 {
+    color: #e5e5e5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.main, .header {
+    background: #19244c;
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.tablo {
+    background: #080001;
+    border: none;
+    border-radius: 10px;
+    width: 155px;
+    height: 120px;
+    margin: 15px auto;
+}
+
+#tablo-1, #tablo-2 {
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 120px;
+    margin: 0;
+
+}
+
+#reset-btn {
+    width: 100%;  
+    border: 3px solid #19244c;
+    border-radius: 10px;
+    color: #19244c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#reset-btn:active { 
+    transform: scale(0.99); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+} 
+
+.add { 
+    font-family: "Cursed Timer ULiL";
+    font-size: 20px;
+    color: #9AABD8;
+    background: #19244c;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+}
+
+.add:active { 
+    transform: scale(0.95); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+} 

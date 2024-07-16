@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header"><h2 id = "header">SCORE</h2></div>
+        <div class = "main">
+            <div>
+                <h2>HOME</h2>
+                <div class="tablo"><p id="tablo-1">0</p></div>
+                <div>
+                    <button class="add" onclick="add11()">+1</button>
+                    <button class="add" onclick="add12()">+2</button>
+                    <button class="add" onclick="add13()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h2>GUEST</h2>
+                <div class="tablo"><p id="tablo-2">0</p></div>
+                <div>
+                    <button class="add" onclick="add21()">+1</button>
+                    <button class="add" onclick="add22()">+2</button>
+                    <button class="add" onclick="add23()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <div class = "reset">
+            <button id="reset-btn" onclick="reset()"><h1>RESET</h1></button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
