@@ -17,38 +17,14 @@ function score() {
       header.textContent = result
 }
 
-function add11() {
-    count1 += 1
+function add1(a) {
+    count1 += a
     tbl1.textContent = count1
     score()
 }
 
-function add12() {
-    count1 += 2
-    tbl1.textContent = count1
-    score()
-}
-
-function add13() {
-    count1 += 3
-    tbl1.textContent = count1
-    score()
-}
-
-function add21() {
-    count2 += 1
-    tbl2.textContent = count2
-    score()
-}
-
-function add22() {
-    count2 += 2
-    tbl2.textContent = count2
-    score()
-}
-
-function add23() {
-    count2 += 3
+function add2(a) {
+    count2 += a
     tbl2.textContent = count2
     score()
 }
